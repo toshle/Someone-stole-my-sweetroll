@@ -12,3 +12,7 @@ Installation
   - Remove the IP if you want to use localhost
 5. Run node app.js
 
+
+Screenshot
+----------
+![alt text](screenshot.png "Screenshot")
