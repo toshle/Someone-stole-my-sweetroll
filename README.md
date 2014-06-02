@@ -1,7 +1,9 @@
 Someone-stole-my-sweetroll
 ==========================
+A simple site comment and opinion system with node.js and JQuery.
+It is using [express](http://expressjs.com/) and [Jade](http://jade-lang.com/) as a template engine.
 
-A simple site comment and opinion system with node.js and JQuery
+
 
 Installation
 -------------
