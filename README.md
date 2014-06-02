@@ -10,7 +10,7 @@ Installation
 3. Run `npm install` inside it
 4. Edit the server IP and port inside app.js
   - Remove the IP if you want to use localhost
-5. Run node app.js
+5. Run `node app.js`
 
 
 Screenshot
