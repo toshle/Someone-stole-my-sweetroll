@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title Site comment system
+    link(rel="stylesheet", type="text/css" href="css/style.css")
+    script(type="text/javascript" src="js/jquery-1.11.1.js")
+    script(type="text/javascript" src="js/main.js")
+  body
+    div(id="page-cover")
+    div(id="publish", class="modal")
+      form(method="post", action="", id="newComment")
+        h4 Add a comment
+        br
+        input(type="text", name="name", placeholder="Your name")
+        br
+        textarea(name="comment", rows="5", placeholder="Your comment")
+        br
+        input(type="submit", name="submit", value="Comment")
+        br
+        br
+        a(href="#" id="close") Close
+
+    div(id="content")
+      div(id="head")
+        span(id="title")
+          | SITE COMMENT SYSTEM
+      div(id="nav")
+        a(href="", id="refresh") Refresh
+        a(href="", id="add_comment") Add a comment
+      div(id="errors")
+      div(id="comments")
+        div(class="row")
+          - comments.forEach(function(entry) {
+              p= entry.name + ': ' + entry.comment
+          - });
+      p(id="footer") Site comment system 2014

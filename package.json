@@ -1,0 +1,10 @@
+{
+  "name": "SiteComments",
+  "description": "Website comment system REST services",
+  "version": "0.0.1",
+  "repository" : "0.0.1",
+  "dependencies": {
+    "express": "3.x",
+    "jade": "1.x"
+  }
+}
